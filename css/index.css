@@ -1,0 +1,400 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+     color: white;
+}
+
+
+.container {
+    width: 100%;
+}
+
+.the_app , .clarity , .features , .pricing , footer {
+    width: 100%;
+    padding: 30px 30px 0px 30px;
+    height: 500px;
+}
+
+.header {
+    width: 100%;
+    height: 1000px;
+    background-image: url("../images/app.jpg");
+    background-size: cover;
+    position: relative;
+     color: white;
+}
+
+@media screen and (max-width:600px) {
+    .header {
+        width: 100%;
+        height: 400px;
+    }
+
+}
+
+.header .download-box {
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    width: 500px;
+    height: 220px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 7px;
+}
+
+@media screen and (max-width:600px) {
+    .header .download-box {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 30px;
+        border-radius: 0px;
+    }
+
+}
+
+.header .download-box h2 {
+    padding: 30px 0;
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    .header .download-box h2 {
+        display: none;
+    }
+}
+
+.header .download-box hr {
+    width: 90%;
+    margin: auto;
+}
+
+@media screen and (max-width:600px) {
+    .header .download-box hr {
+        display: none;
+    }
+}
+
+.header .download-box p {
+    font-size: 18px;
+    text-align: center;
+    padding: 25px 0;
+}
+
+@media screen and (max-width:600px) {
+    .header .download-box p {
+        display: none;
+    }
+}
+
+.header .download-box button {
+    display: block;
+    width: 90%;
+    height: 30px;
+    background-color: #60d552;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+@media screen and (max-width:600px) {
+    .header .download-box button {
+        display: block;
+        width: 100%;
+        height: 30px;
+        background-color: #60d552;
+        margin: auto;
+        border-radius: 0px;
+        font-size: 16px;
+    }
+}
+
+.header .take-tour {
+    position: absolute;
+    top: 48%;
+    right: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 3px;
+    padding: 10px 30px;
+    
+}
+
+@media screen and (max-width:600px){
+    .header .take-tour {
+        position: absolute;
+        top: 100%;
+        left: 0px;
+        width: 100%;
+        height: 50px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 0px;
+        padding: 10px 255px;
+    }
+}
+
+.header .take-tour a {
+    color: white;
+    width: 60%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+@media screen and (max-width:600px){
+    .header .take-tour a {
+        color: white;
+        width: 60%;
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+.the_app {
+    height: 460px;
+}
+
+@media screen and (max-width:600px) {
+    .the_app {
+        height: 520px;
+    }
+}
+.the_app .left {
+    float: left;
+    width: 60%;
+}
+
+@media screen and (max-width:600px) {
+    .the_app .left {
+        float: left;
+        width: 100%;
+    }
+}
+
+.the_app .left h1 , h2 {
+    padding: 10px 0;
+}
+
+.the_app .left h1 {
+    font-size: 50px;
+}
+.the_app .left h2 {
+    color: #60d552;
+    font-size: 38px;
+}
+.the_app .left p {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.the_app .left p strong {
+    font-size: 25px;
+}
+
+.the_app .left a {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 20px 0;
+    background-color: rgb(245, 241, 241);
+    border-radius: 3px;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+}
+.the_app .left a i {
+    margin-right: 10px;
+}
+
+.the_app .left span {
+    display: block;
+    margin: 20px 0;
+}
+.the_app .right {
+    float: right;
+    width: 300px;
+    height: 400px;
+}
+
+@media screen and (max-width:600px) {
+    .the_app .right {
+        margin: auto;
+        width: 100%;
+        height: 500px;
+        padding: 60px;
+    }
+
+}
+.the_app .right img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:600px) { 
+    .the_app .right img {
+        width: 80%;
+        height: 80%;
+    }   
+}
+.clarity .left-clarity {
+    float: left;
+    width: 300px;
+    height: 400px;
+}
+.the_app .right img {
+    width: 100%;
+    height: 100%;
+}
+
+.clarity {
+    background-color: #eee;
+}
+
+.clarity .left-clarity {
+    float: left;
+    width: 300px;
+    height: 400px;
+}
+.clarity .left-clarity img {
+    width: 100%;
+    height: 100%;
+}
+
+.clarity .right-clarity {
+    float: right;
+    width: 60%;
+    padding-top: 30px;
+}
+
+.clarity .right-clarity h1 , h2 {
+    padding: 10px 0;
+}
+
+.clarity .right-clarity h1 {
+    font-size: 50px;
+}
+.clarity .right-clarity h2 {
+    color: #e40d18;
+    font-size: 38px;
+}
+.clarity .right-clarity p {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.clarity .right-clarity p strong {
+    font-size: 25px;
+}
+
+.features {
+    background-color: rgba(37, 35, 35, 0.445);
+    height: 600px;
+}
+
+.features h1  {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.features p {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+}
+.features .icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.features .icon .icon-features {
+    width: 25%;
+    height: 100px;
+    padding: 10px;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+
+.features .icon .icon-features i {
+    font-size: 50px;
+    text-align: center;
+    display: block;
+}
+
+.pricing {
+    height: 700px;
+}
+
+.pricing h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 25px;
+}
+
+.pricing p {
+    text-align: center;
+    font-size: 20px;
+}
+.pricing .basic-premium {
+    margin: 60px 0;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+
+}
+.pricing .column {
+    width: 50%;
+}
+.pricing .column table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.pricing table thead {
+    height: 80px;
+    color: white;
+    font-size: 25px;
+}
+
+.pricing table tbody tr {
+    height: 50px;
+    border: 2px solid rgb(156, 154, 154);
+    border-top: none;
+    font-size: 20px;
+}
+
+
+.pricing table tbody tr .pricing-download {
+    width: 140px;
+    height: 40px;
+    margin: auto;
+    background-color: black;
+    padding: 8px;
+}
+
+footer {
+    background-color: #eee;
+    height: 150px;
+}
+
+footer .logo-footer {
+    width: 100px;
+    margin: auto;
+}
+footer p {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+footer p a {
+    color: black;
+    text-decoration: underline;
+}
